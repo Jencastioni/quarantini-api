@@ -23,12 +23,15 @@ tofu.
 
 ### User Stories
 
-- As a user I want to sign in/up
-- As a user I want to Create a new < resource >
-- As a user I want to Read multiple < resources >
-- As a user I want to Read a single < resource >
-- As a user I want to Update a < resource > I own
-- As a user I want to Delete a < resource > I own
+- As a user, I would like to sign up.
+- As a user, I would like to sign in.
+- As a user, I would like to change password.
+- As a user, I would like to sign out.
+- As a user, I would like to view all cocktail recipes.
+- As a user, I would like to add recipes.
+- As a user, I would like to like a recipe.
+- As a user, I would like to comment on recipes.
+- As a user, I would like to delete my comment.
 
 ### Technologies Used
 
@@ -45,9 +48,9 @@ tofu.
 ## Images
 
 #### Wireframe:
-![wireframe](https://lucidchart.zendesk.com/hc/article_attachments/360001080866/Facebook_Wireframe_-_New_Page.png)
+![wireframe](https://imgur.com/a/uEsY8a4)
 
 ---
 
 #### ERD:
-![ERD](https://www.smartdraw.com/entity-relationship-diagram/img/cardinality.jpg?bn=1510011144)
+![ERD](https://imgur.com/a/7LqUeBi)
