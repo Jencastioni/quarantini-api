@@ -36,7 +36,7 @@ router.get('/recipe', requireToken, (req, res, next) => {
       // `recipe` will be an array of Mongoose documents
       // we want to convert each one to a POJO, so we use `.map` to
       // apply `.toObject` to each one
-      return recipes.map(recipes => recipes.toObject())
+      return recipes.map(recipe => recipe.toObject())
     })
     // respond with status 200 and JSON of the recipe
     .then(recipes => res.status(200).json({ recipes: recipes }))
@@ -83,7 +83,7 @@ router.post('/recipe', requireToken, (req, res, next) => {
 router.patch('/recipe/:id', requireToken, removeBlanks, (req, res, next) => {
   // if the client attempts to change the `owner` property by including a new
   // owner, prevent that by deleting that key/value pair
-  delete req.text.recipe.owner
+  delete req.body.recipe.owner
 
   Recipe.findById(req.params.id)
     .then(handle404)
@@ -94,7 +94,7 @@ router.patch('/recipe/:id', requireToken, removeBlanks, (req, res, next) => {
         // cant update unless you own the ID
 
       // pass the result of Mongoose's `.update` to the next `.then`
-      return recipe.updateOne(req.text.recipe)
+      return recipe.updateOne(req.body.recipe)
     })
     // if that succeeded, return 204 and no JSON
     .then(() => res.sendStatus(204))
