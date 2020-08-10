@@ -1,25 +1,16 @@
 # Quarantini Api
 
-# Application Title: A Description
-
-This application allows the user to do x, y, and z. Maybe here's a reason why I
-wanted to do this project, or came up with this idea.
+Quarantini is a single-page web application that works with a backend API. The app allows you to log recipes of your favorite cocktails and udpate with comments. The purpose of this web-application is to make home life a little more bearable in these trying times. If you're stuck at home and love craft cocktails, why not experiment with mixology at home and save your recipes online?
 
 ## Important Links
 
-- [Other Repo](www.link.com)
-- [Deployed API](www.link.com)
-- [Deployed Client](www.link.com)
+- [Quarantini](https://jencastioni.github.io/quarantini-client/)
+- [Deployed API Repo](https://github.com/Jencastioni/quarantini-api)
+- [Deployed Client Repo](https://github.com/Jencastioni/quarantini-client)
 
 ## Planning Story
 
-Lorem ipsum dolor amet cloud bread letterpress squid actually, single-origin
-coffee williamsburg af poutine fingerstache austin semiotics paleo man braid
-vexillologist. Tumeric literally banjo pickled disrupt cold-pressed thundercats
-shoreditch try-hard health goth intelligentsia pop-up small batch skateboard
-farm-to-table. Meh tofu fam, direct trade tattooed stumptown etsy everyday
-carry activated charcoal. Neutra cornhole polaroid literally salvia, listicle
-tofu.
+I created my Quarantini using a single-page web application. First I drew my WireframAs per the requirements, the app allows the user to create an account or sign up, sign in, change their password while signed in and sign out. The user must be signed in to add recipes, see index, delete and update recipes. 
 
 ### User Stories
 
@@ -39,16 +30,17 @@ tofu.
 - HTML/CSS
 - Bootstrap
 - Javascript
+- HandleBars
 
 ### Unsolved Problems
 
-- Still need to ....
-- Would like to eventually ....
+- Eventually, I would liek to make this a blog where you can see multiple users posts and they can interact by liking and commenting on each other's.
+- Make it a social media site.
 
 ## Images
 
 #### Wireframe:
-![wireframe](https://imgur.com/a/uEsY8a4)
+![Wireframe](https://imgur.com/a/uEsY8a4)
 
 ---
 
