@@ -12,6 +12,7 @@ curl "${API}${URL_PATH}" \
     "example": {
       "text": "'"${TEXT}"'",
       "title": "'"${TITLE}"'"
+      
     }
   }'
 
