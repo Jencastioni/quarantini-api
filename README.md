@@ -5,8 +5,8 @@ Quarantini is a single-page web application that works with a backend API. The a
 ## Important Links
 
 - [Quarantini](https://jencastioni.github.io/quarantini-client/)
-- [Deployed API Repo](https://github.com/Jencastioni/quarantini-api)
-- [Deployed Client Repo](https://github.com/Jencastioni/quarantini-client)
+- [Deployed API Repo](https://github.com/jencastioni/quarantini-api)
+- [Deployed Client Repo](https://github.com/jencastioni/quarantini-client)
 
 ## Planning Story
 

@@ -5,7 +5,11 @@ const recipeSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  text: {
+  recipe: {
+    type: String,
+    required: true
+  },
+  comments: {
     type: String,
     required: true
   },
