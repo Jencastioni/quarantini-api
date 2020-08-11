@@ -18,11 +18,11 @@ I created my Quarantini using a single-page web application. First I drew my Wir
 - As a user, I would like to sign in.
 - As a user, I would like to change password.
 - As a user, I would like to sign out.
-- As a user, I would like to view all cocktail recipes.
+- As a user, I would like to view all my cocktail recipes.
 - As a user, I would like to add recipes.
-- As a user, I would like to like a recipe.
-- As a user, I would like to comment on recipes.
-- As a user, I would like to delete my comment.
+- As a user, I would like to delete a recipe.
+- As a user, I would like to update a recipes.
+
 
 ### Technologies Used
 
