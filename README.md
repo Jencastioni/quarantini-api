@@ -40,9 +40,9 @@ I created my Quarantini using a single-page web application. First I drew my Wir
 ## Images
 
 #### Wireframe:
-![Wireframe](https://imgur.com/a/uEsY8a4)
+[Wireframe](https://imgur.com/a/uEsY8a4)
 
 ---
 
 #### ERD:
-![ERD](https://imgur.com/a/7LqUeBi)
+[ERD](https://imgur.com/a/UZxbNky)
